@@ -1,6 +1,9 @@
 # Data-Unchained-By-IIIT-Delhi
 ML competiton on a span of 4 days with 3 rounds .
 
+### Round 1 https://www.kaggle.com/t/93a0c57f9b384997a5cec9bd69317d79
+### Round 2 https://www.kaggle.com/t/554754dcc7924deb90b90e63b9c48760
+### Round 3 https://www.kaggle.com/t/ef5b543a20a3406c812ce036f60105e5 
 
 ## First Round 
 
@@ -9,7 +12,7 @@ ML competiton on a span of 4 days with 3 rounds .
 #### Problem :Structural Data 
 The Problem was to train a model which will decide whether a player is fit for a bidding round or not. 
 
-####Approach: 
+#### Approach: 
 We have analyzed the data and found that it was a biased data [Not Selected >>>>Selected] .So our main approach was to increase the predictions of Selected rather than not selected. Proper Preprocessing was done and we replaced -3,-1 with zeros and made the Region column Categorical .We got 1st in public leaderboard with a XGboost model in ensemble. Though our decision tree model didn't perform well in public leaderboard we got 0.97% accuracy in private leaderboard. 
 
 ## Second Round: 
