@@ -6,7 +6,7 @@ ML competiton  by Elysieum IIIT Delhi on a span of 4 days with 3 rounds on tabul
 
 - [ ] Round 1 File
 - [x] Round 2 File
-- [ ] Round 3 File
+- [x] Round 3 File
 
 ## First Round 
 
