@@ -10,7 +10,7 @@ ML competiton  by Elysieum IIIT Delhi on a span of 4 days with 3 rounds on tabul
 
 ## First Round 
 
-#### Position -First place 
+#### Position -First Place 
 
 #### Problem :Structural Data 
 The Problem was to train a model which will decide whether a player is fit for a bidding round or not. 
@@ -42,7 +42,7 @@ The problem is to train a model which determines the speed of the car using a se
 ##### Round 3 https://www.kaggle.com/t/ef5b543a20a3406c812ce036f60105e5 
 
 #### Approach: 
-This was the toughest problem as I have never worked on image field and this was an image sequence task. 
+This is the toughest problem as I have not worked much on computer vision and this was an image sequence task. 
 https://medium.com/smileinnovation/how-to-work-with-time-distributed-data-in-a-neural network-b8b39aa4ce00 
-This article helped to learn about TimeDistributed Layers and we have used them in the model. Time Distributed layers are used to feed image sequence into a work. 
-We resized the image to (180,320) preserving the aspect ratio and made numpy arrays in shape of (8,180,320,3) and our output was 2 values velocity in x direction and y direction . Our Model had atime distributed layer of Pretrained InceptionResnet followed by a LSTM to gather information about the sequence followed by Dense Layers.
+This article helped to learn about TimeDistributed Layers . Time Distributed layers are used to feed list of image sequence into a model. 
+We resized the image to (180,320) preserving the aspect ratio and made numpy arrays in shape of (8,180,320,3) and our output had 2 values velocity in x direction and y direction . Our Model had atime distributed layer of Pretrained InceptionResnet followed by a LSTM to gather information about the sequence followed by Dense Layers.
