@@ -2,11 +2,7 @@
 ML competiton  by Elysieum IIIT Delhi on a span of 4 days with 3 rounds on tabular data ,text ,image sequence.
 #### Won Second Place in the Event.
 
-##### Todo:
-
-- [x] Round 1 File
-- [x] Round 2 File
-- [x] Round 3 File
+Article on how I solved the final round problem : https://sooryaprakash84.medium.com/approaching-image-sequence-with-time-distributed-layers-e78ce52a2355
 
 ## First Round 
 
@@ -38,6 +34,8 @@ The key point in this problem lies in the proper analysis of preprocessing of th
 
 #### Problem: Image Sequence
 The problem is to train a model which determines the speed of the car using a series of dash-cam images (ie 8 frames). 
+
+
 
 ##### Round 3 https://www.kaggle.com/t/ef5b543a20a3406c812ce036f60105e5 
 
