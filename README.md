@@ -2,7 +2,7 @@
 ML competiton  by Elysieum IIIT Delhi on a span of 4 days with 3 rounds on tabular data ,text ,image sequence.
 #### Won Second Place in the Event.
 
-Article on how I solved the final round problem : https://sooryaprakash84.medium.com/approaching-image-sequence-with-time-distributed-layers-e78ce52a2355
+Article on how I solved the final round problem : https://sooryaprakash84.medium.com/hands-on-practice-with-time-distributed-layers-using-tensorflow-c776a5d78e7e
 
 ## First Round 
 
