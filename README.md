@@ -21,13 +21,6 @@ The Problem was to train a model which will decide whether a player is fit for a
 
 #### Position: Third Place 
 
-#### Problem : Text Based 
-The problem was to classify content of blogs to one of 12 classes describing their overall emotion .
-
-##### Round 2 https://www.kaggle.com/t/554754dcc7924deb90b90e63b9c48760
-
-#### Approach: 
-The key point in this problem lies in the proper analysis of preprocessing of the text. First we searched for the things to process in text and found that many links,tags,numbers,exclamations were there. We lowercased the text ,decontracted and removed unnecessary stopwards ,removed links ,tags ,exclamations,numbers .Then fed it into the Bert Model .Bert took care of the rest. 
 
 ## Final Round: 
 
